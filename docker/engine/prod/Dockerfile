@@ -1,5 +1,6 @@
 FROM php:7.1.0-fpm
 MAINTAINER Laurent Masforne <laurent.masforne@gmail.com>
+
 ENV SYMFONY_ENV prod
 ENV PHP_APCU_VERSION 5.1.8
 RUN apt-get update \

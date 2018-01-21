@@ -30,4 +30,4 @@ RUN apt-get update \
     && pecl install apcu_bc-1.0.3 \
     && docker-php-source delete \
     && php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=/usr/local/bin --filename=composer \
-    && chmod +x /usr/local/bin/composer
+    && chmod +x /usr/local/bin/composer \
