@@ -1,5 +1,6 @@
 FROM php:7.1.0-fpm
 MAINTAINER Laurent Masforne <laurent.masforne@gmail.com>
+ENV SYMFONY_ENV dev
 ENV PHP_APCU_VERSION 5.1.8
 ENV PHP_XDEBUG_VERSION 2.5.0
 RUN apt-get update \
